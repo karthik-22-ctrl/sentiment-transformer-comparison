@@ -33,6 +33,14 @@ Random seed: **42**
 
 The test set was kept separate from training and model selection.
 
+### Dataset Source
+
+The SemEval18 dataset used in this experiment was obtained from the sentiment-analysis dataset repository associated with Bashiri & Naderi (2024):
+
+https://github.com/hadis-1/Sentiment-Analysis-Datasets
+
+The dataset file itself is not redistributed in this repository. To reproduce the experiment, download `SemEval18.csv` from the source repository and place it in the same directory as the notebook.
+
 ## Models
 
 The following pretrained transformer models were fine-tuned:
